@@ -91,7 +91,7 @@ public class SimpleGalaxyManagement {
     }
 
     private void loadGalaxiesFromFile(String filename) {
-        galaxy = new Galaxy("مجموعه کهکشان‌ها");
+        galaxy = new Galaxy("مجموعه  کهکشان‌ها");
         File file = new File(filename);
         try (Scanner scanner = new Scanner(file)) {
             while (scanner.hasNextLine()) {
