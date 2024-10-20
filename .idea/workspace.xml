@@ -4,13 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4274da7d-abbe-4930-be4f-313c5535a3ef" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Galaxy/Galaxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Galaxy/Planet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Galaxy/SimpleGalaxyManagement.java" afterDir="false" />
+    <list default="true" id="4274da7d-abbe-4930-be4f-313c5535a3ef" name="Changes" comment="commit1">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Galaxy/LifeSupportingPlanet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Galaxy/LifeSupportingStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Galaxy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Galaxy/PlanetType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Galaxy/ResourceRichPlanet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Galaxy/ResourceRichStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galaxy_data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Galaxy/Galaxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Galaxy/Galaxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Galaxy/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Galaxy/Planet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Galaxy/SimpleGalaxyManagement.java" beforeDir="false" />
     </list>
+    <list id="6c48bee3-2a76-4a8f-beda-87e8fbdca297" name="showMenu" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,19 +30,22 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/org/example/Main.java" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2n8nfSNFLWKmeSs7Cnf75wNI8zN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,8 +56,9 @@
   "keyToString": {
     "Application.GalaxyManagementSystem.executor": "Run",
     "Application.Main.executor": "Run",
-    "Application.SimpleGalaxyManagement.executor": "Debug",
+    "Application.SimpleGalaxyManagement.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -51,16 +66,24 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Galaxy.Main" />
       <module name="new" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Galaxy.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,11 +109,13 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4274da7d-abbe-4930-be4f-313c5535a3ef" name="Changes" comment="" />
+      <changelist id="6c48bee3-2a76-4a8f-beda-87e8fbdca297" name="showMenu" comment="" />
       <created>1728363676189</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728363676189</updated>
-      <workItem from="1728363677334" duration="9642000" />
+      <workItem from="1728363677334" duration="11200000" />
+      <workItem from="1729403631416" duration="18027000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="test">
       <option name="closed" value="true" />
@@ -99,7 +124,28 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۰۱" />
       <updated>1728363930323</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL‎−۰۰۰۰۲" summary="commit1">
+      <option name="closed" value="true" />
+      <created>1728393104594</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۲" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۲" />
+      <updated>1728393104594</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۰۳" summary="commit1">
+      <option name="closed" value="true" />
+      <created>1728393119365</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۳" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۳" />
+      <updated>1728393119365</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۰۴" summary="commit1">
+      <option name="closed" value="true" />
+      <created>1728393233758</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۴" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۴" />
+      <updated>1728393233758</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,15 +164,31 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="commit1" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Galaxy/SimpleGalaxyManagement.java</url>
-          <line>98</line>
+          <url>file://$PROJECT_DIR$/src/main/java/Galaxy/Main.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Galaxy/Main.java</url>
+          <line>119</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Galaxy/Main.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Galaxy/Main.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
